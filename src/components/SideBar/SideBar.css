@@ -1,0 +1,18 @@
+#sideBar{
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 100vh;
+    margin-left: 10px;
+}
+#sideBar h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+#sideBar h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#sideBar label{
+    font-weight: 600;
+}
