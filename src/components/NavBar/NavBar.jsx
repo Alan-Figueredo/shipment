@@ -1,9 +1,9 @@
-import { Container, Row } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faQrcode, faBell, faGear } from "@fortawesome/free-solid-svg-icons";
 import "./NavBar.css"
 export const NavBar = ()=>{
+
     return(
             <div id="Navbar">
                 <ul>
@@ -40,6 +40,7 @@ export const NavBar = ()=>{
                     </li>
                     <li>
                         <FontAwesomeIcon icon={faBell} id="bell"/>
+                        <span className="position-absolute top-1 start-70 translate-middle badge rounded-pill bg-danger">0</span>
                     </li>
                     <li>
                         <select name="Create New" id="" >

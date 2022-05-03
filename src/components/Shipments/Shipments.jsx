@@ -1,11 +1,12 @@
 import { Card, Row} from "react-bootstrap"
 import "../Shipments/Shipments.css"
 import Ships from "../Shipments.json"
+import { useState } from "react"
 export const Shipments =()=>{
     return(
         Ships && Ships.map( Ships=>{
             return(
-                <Card className="shadow" id="Shipments">
+                <Card className="shadow" id="Shipments" key={Ships.ShipmentNumber}>
                     <Row className="mx-1 mt-2">
                         <div className="col">
                             <h2>Shipment Number</h2>
