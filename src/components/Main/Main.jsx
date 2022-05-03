@@ -1,4 +1,3 @@
-import { Container, Row } from "react-bootstrap"
 import ShipmentInformation from "../ShipmentInformation/ShipmentInformation"
 import { SideBar } from "../SideBar/SideBar"
 import "../Main/Main.css"
