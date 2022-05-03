@@ -25,7 +25,7 @@ export const Shipments =()=>{
                             <h2>Expected Ship date</h2>
                             <p>{Ships.ExpectedShipDate}</p>
                         </div>
-                        <div className="col">
+                        <div className="col" id="destination">
                             <h2>Destination</h2>
                             <p>{Ships.Destination}</p>
                         </div>
