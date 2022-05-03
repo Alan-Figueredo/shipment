@@ -1,7 +1,6 @@
 import { Card, Row} from "react-bootstrap"
 import "../Shipments/Shipments.css"
 import Ships from "../Shipments.json"
-import { useState } from "react"
 export const Shipments =()=>{
     return(
         Ships && Ships.map( Ships=>{
