@@ -1,5 +1,6 @@
 import ShipmentInformation from "../ShipmentInformation/ShipmentInformation"
 import { SideBar } from "../SideBar/SideBar"
+import { Row } from "react-bootstrap"
 import "../Main/Main.css"
 import { ManageShipments } from "../Manage Shipments/ManageShipments"
 import { Shipments } from "../Shipments/Shipments"
